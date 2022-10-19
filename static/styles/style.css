@@ -1,0 +1,149 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main
+{
+    width: 100%;
+    height: 160vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ,url('800.jpg');
+    background-position: center;
+    background-size: cover; 
+}
+.heading
+{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    /* transform: translate(-20%); */
+    text-align: center;
+    color: #fff;
+}
+.heading h1
+{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.container
+{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    
+}
+.heading p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.container .box
+{
+    position: relative;
+    width: calc(360px - 30px);
+    height: calc(260px - 30px);
+    background: #000;
+    float: right;
+    margin: 35px;
+    margin-right: 25px;
+    margin-top: 400px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.5);
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.container .box .icon
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: 0.5s;
+    z-index: 1;
+}
+.container .box:hover .icon
+{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.container .box .icon .fa
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    transition: 0.5%;
+    color: #fff;
+}
+.container .box:hover .icon .fa
+{
+    font-size: 40px;
+}
+.container .box .content
+{
+    position: absolute;
+    top: 100px;
+    height: calc(100% - 100px);
+    text-align: center;
+    padding: 20px;
+    margin-left: 80px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+.container .box:hover .content {
+    top: 100px;
+    opacity: 1;
+}
+.container .box .content h3{
+    margin: 0 0 8px;
+    padding: 0;
+    color: #000;
+    font-size: 24px;
+}
+
+.container .box:nth-child(2) .icon
+{
+    background: #4caf50;
+}
+.container .box:nth-child(2)
+{
+    background: #ffe77aff;
+}
+.container .box:nth-child(3) .icon
+{
+    background: #4caf50;
+}
+.container .box:nth-child(3)
+{
+    background: #97bc62ff ;
+}
+.container .box:nth-child(4) .icon
+{
+    background: #4caf50;
+}
+.container .box:nth-child(4)
+{
+    background: #ffe77aff;
+}
+a
+{
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+

@@ -1,0 +1,9 @@
+tensorflow
+keras
+numpy
+flask
+opencv-python
+cvzone
+matplotlib
+cvlib
+gunicorn
